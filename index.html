@@ -7,6 +7,17 @@
     <title>FrontPage | EASstats</title>
 </head>
 <body>
-    <script src="./js/script.js"></script>
+    <form id="searchByPlayer">
+        <label for="player">Player</label>
+        <input id="player" name="player" type="text" placeholder="search for player">
+        <label for="platform">platform</label>
+        <select id="platform" name="platform">
+            <option value="PC">PC(default)</option>
+            <option value="PS4">PS4/PS5</option>
+            <option value="X1">Xbox one</option>
+        </select>
+        <button type="submit">find</button>
+    </form>
+    <script src="./js/script.js" type="module"></script>
 </body>
 </html>
