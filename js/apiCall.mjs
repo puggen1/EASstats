@@ -7,8 +7,9 @@ let baseUrl = "https://api.mozambiquehe.re/";
 /**
  * @description personal auth token
  */
-let authToken = "__API_KEY__";
-//let authTokenLocal = process.env.API_KEY;
+let authToken = __API_KEY__;
+let authTokenLocal = API_KEY;
+console.log(authTokenLocal);
 /**
  *
  * @param {string} type what type of information you want to get from the api
@@ -34,7 +35,7 @@ export default async function apiFetch(
   let options = {
     method: "GET",
     headers: {
-      Authorization: /*authTokenLocal ?*/ authToken /* : authTokenLocal*/,
+      Authorization: authTokenLocal ? authToken : authTokenLocal,
     },
   };
   let result = await fetch(urlTosend, options).then((response) =>

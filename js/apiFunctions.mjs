@@ -1,4 +1,4 @@
-import apiFetch from "./apiCall.js";
+import apiFetch from "./apiCall.mjs";
 /**
  *
  * @param {string} username the username of the player you want stats about
