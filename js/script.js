@@ -1,4 +1,4 @@
-import { getPlayer } from "./apiFunctions.mjs";
+import {getPlayer} from "./apiFunctions.js";
 let playerSearch = document.querySelector("#searchByPlayer");
 playerSearch.addEventListener("submit", (event) => {
   event.preventDefault();

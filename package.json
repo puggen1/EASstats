@@ -2,7 +2,7 @@
   "name": "easstats",
   "version": "1.0.0",
   "description": "a project to display info about some friends in a group playing apex",
-  "main": "index.js",
+  "main": "./js/node/server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
