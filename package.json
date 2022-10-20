@@ -1,0 +1,20 @@
+{
+  "name": "easstats",
+  "version": "1.0.0",
+  "description": "a project to display info about some friends in a group playing apex",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/puggen1/EASstats.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/puggen1/EASstats/issues"
+  },
+  "homepage": "https://github.com/puggen1/EASstats#readme"
+}
