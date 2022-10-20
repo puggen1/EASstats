@@ -7,7 +7,7 @@ let baseUrl = "https://api.mozambiquehe.re/";
 /**
  * @description personal auth token
  */
-let authToken = __API_KEY__;
+let authToken = "__API_KEY__";
 //let authTokenLocal = process.env.API_KEY;
 /**
  *
