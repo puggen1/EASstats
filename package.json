@@ -4,7 +4,7 @@
   "description": "a project to display info about some friends in a group playing apex",
   "main": "index.js",
   "scripts": {
-    "test": "node ./js/apiTest.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
