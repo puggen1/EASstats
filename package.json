@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/puggen1/EASstats/issues"
   },
-  "homepage": "https://github.com/puggen1/EASstats#readme"
+  "homepage": "https://github.com/puggen1/EASstats#readme",
+  "devDependencies": {
+    "dotenv": "^16.0.3"
+  }
 }
