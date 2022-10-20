@@ -1,3 +1,4 @@
+require("dotenv/config");
 /**
  * @description the cors i have to use on localserver and base url for the api
  */
@@ -5,9 +6,9 @@ let cors = "https://noroffcors.herokuapp.com/";
 let baseUrl = "https://api.mozambiquehe.re/";
 
 /**
- * @description my auth token for project
+ * @description personal auth token
  */
-let authToken = "";
+let authToken = process.env.API_KEY;
 /**
  *
  * @param {string} type what type of information you want to get from the api
