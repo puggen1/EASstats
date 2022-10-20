@@ -7,7 +7,7 @@ let baseUrl = "https://api.mozambiquehe.re/";
 /**
  * @description my auth token for project
  */
-let authToken = "ad085523a16414de43978ca12643317e";
+let authToken = "";
 /**
  *
  * @param {string} type what type of information you want to get from the api
