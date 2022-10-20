@@ -1,4 +1,4 @@
-import apiFetch from "./apiCall.js";
+import apiFetch from "./apiCall.mjs";
 /**
  *
  * @param {string} username the username of the player you want stats about
@@ -25,5 +25,4 @@ async function getBoard(legend, platform) {
   let board = await apiFetch("board", "", platform, legend);
   console.log(board);
 }
-
-export { getPlayer };
+export { getPlayer, getBoard };
