@@ -1,4 +1,4 @@
- name: Deploy to Pages with Api
+name: Deploy to Pages with Api
 on:
   # Runs on pushes targeting the default branch
   push:
@@ -28,7 +28,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
       - name: Install Dependencies
-        run: npm i 
+        run: npm i
       - name: Replace placeholders with our secret variables
         uses: falnyr/replace-env-vars-action@v1.3.2
         env:
@@ -41,7 +41,7 @@ jobs:
         uses: actions/upload-pages-artifact@v1
         with:
           # Upload entire repository
-          path: '.'
+          path: "."
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v1
