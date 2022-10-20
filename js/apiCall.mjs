@@ -8,7 +8,7 @@ let baseUrl = "https://api.mozambiquehe.re/";
 /**
  * @description personal auth token
  */
-let authToken = process.env.API_KEY;
+let authToken = API_KEY;
 /**
  *
  * @param {string} type what type of information you want to get from the api
