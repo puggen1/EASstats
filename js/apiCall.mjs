@@ -34,7 +34,7 @@ export default async function apiFetch(
   let options = {
     method: "GET",
     headers: {
-      Authorization: authTokenLocal ? authTokenLocal:authToken,
+      Authorization: /*authTokenLocal ? authTokenLocal:*/authToken,
     },
   };
   let result = await fetch(urlTosend, options).then((response) =>
