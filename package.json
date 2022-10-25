@@ -1,6 +1,6 @@
 {
   "name": "easstats",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "a project to display info about some friends in a group playing apex",
   "main": "./js/node/server.js",
   "scripts": {
