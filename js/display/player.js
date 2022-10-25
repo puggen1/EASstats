@@ -11,5 +11,9 @@ import player from "../create/Player.js";
 export default function displayPlayer(data, location){
     let resultPlayer = new player(data);
     let levelDiv = resultPlayer.createLevelDiv();
-    location.insertAdjacentElement("afterbegin",levelDiv);
+    let rankDiv = resultPlayer.createRankDiv();
+    let selectedDiv = resultPlayer.createSelectedDiv();
+    location.insertAdjacentElement("beforeend",levelDiv);
+    location.insertAdjacentElement("beforeend", rankDiv);
+    location.insertAdjacentElement("beforeend", selectedDiv);
 }
